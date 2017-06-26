@@ -6,7 +6,6 @@ body {
   opacity: 0.9;
   text-align: center;
   margin: 0px;
-  font-weight: bold;
 }
 
 header {
@@ -19,7 +18,6 @@ header {
   align-items: center;
   top: 0;
   background-color: black;
-  font-weight: normal;
 }
 
 header img {
@@ -75,6 +73,7 @@ p {
   width: 1020px;
   justify-content: center;
   margin: auto;
+  font-weight: bold;
 }
 
 #featured div {
