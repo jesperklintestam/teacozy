@@ -6,6 +6,7 @@ body {
   opacity: 0.9;
   text-align: center;
   margin: 0px;
+  font-weight: bold;
 }
 
 header {
@@ -18,6 +19,7 @@ header {
   align-items: center;
   top: 0;
   background-color: black;
+  font-weight: normal;
 }
 
 header img {
@@ -33,36 +35,50 @@ a {
   color: seashell;
 }
 
-#mission {
-  margin: auto;
-  display: flex;
-  background-image: url("resources/images/img-mission-background.jpg");
-  height: 700px;
-  width: 1200px;
-  margin-top: 70px;
-  align-items: center;
-  justify-content: center;
+p {
+  padding: 15px;
 }
 
-.pic-text {
+#mission h2, h4 {
+  margin: 10px;
+}
+
+.photo-div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+
+}
+
+#mission.photo-div {
+    padding-top: 70px;
+    justify-content: center;
+}
+
+#mission {
+  background: url("resources/images/img-mission-background.jpg") center;
+  margin-bottom: 80px;
+}
+
+.photo-text {
   background-color: black;
-  width: 100%
+  width: 100%;
 }
 
 #featured {
   margin-top: 50px;
   display: flex;
-
   flex-wrap: wrap;
-  width: 1000px;
-  align-items: flex-start;
-  justify-content: space-between;
+  width: 1020px;
+  justify-content: center;
   margin: auto;
 }
 
 #featured div {
   display: flex;
-  justify-content: flex-end;
   flex-direction: column;
 }
 
@@ -73,5 +89,31 @@ a {
 }
 
 #locations  {
+  background: url("resources/images/img-locations-background.jpg") center;
+  height: 500px;
+  margin-top: 80px;
+}
 
+#locations h2 {
+  margin-top: 50px;
+  margin-bottom: -5px;
+}
+
+#locations div {
+  display: flex;
+}
+
+#locations span {
+  background-color: black;
+  width: 300px;
+  margin: 20px;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
